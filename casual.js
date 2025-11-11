@@ -1,8 +1,8 @@
 
-/** SIMPLEFOX! ***/
+/** SIMPLEFOX! Casual. ***/
 
 /** HEAVILY OPINIONATED SETTINGS ***/
-user_pref("geo.provider.network.url", "https://beacondb.net/v1/geolocate"); // BeaconDB geo service
+/** Casual: Removes alternative geo service for reliability. ***/
 user_pref("network.trr.uri", "https://dns.mullvad.net/dns-query"); // Mullvad's DoH service
 
 /** SPECULATIVE LOADING ***/
@@ -16,7 +16,8 @@ user_pref("network.predictor.enabled", false);
 
 /** TRACKING PROTECTION ***/
 user_pref("browser.contentblocking.category", "strict");
-user_pref("privacy.trackingprotection.allow_list.baseline.enabled", false);
+user_pref("privacy.trackingprotection.allow_list.baseline.enabled", true);
+/** Casual: Enables "Fix major site issues" under Enhanced Tracking Protection. ***/
 user_pref("privacy.globalprivacycontrol.enabled", true);
 
 /** SHUTDOWN & SANITIZING ***/
@@ -113,7 +114,9 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 /** DNS over HTTPS ***/
 user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_error_page_user_suggestions", true);
-user_pref("network.trr.mode", 3);
+user_pref("network.trr.mode", 2);
+user_pref("network.trr.max-fails", 5);
+/** Casual: Switches from "Max Protection" to "Increased Protection" under DNS over HTTPS for reliability. ***/
 
 /** QoL ***/
 user_pref("general.autoScroll", true);
