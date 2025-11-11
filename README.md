@@ -30,7 +30,7 @@ While very similar, `casual.js` has some minor changes compared to `user.js` to 
 ## Heavily opinionated settings
 
 1) Geo service provider - [BeaconDB](https://beacondb.net/)
-2) DNS over HTTPS provider - [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
+2) DNS over HTTPS provider - [Mullvad](https://mullvad.net/en) (anti ad, tracker and malware [preset](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls))
 
 Should you prefer some other service providers, the respective settings have been located at the top of both `user.js` and `casual.js` files.
 
