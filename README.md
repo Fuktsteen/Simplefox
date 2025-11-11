@@ -14,7 +14,7 @@ Improves privacy and quality of life while maintaining a heavy emphasis on usabi
 3) For the profile you want to use, click **Open Folder** in the **Root Directory** section.
 4) Move the `user.js` file into the folder.
 5) Restart Firefox.
-6) Get an **ad blocker** ie. [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/).
+6) Optionally for added privacy install the [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) content blocker.
 
 [Betterfox](https://github.com/yokoffing/Betterfox) has great lists of common changes to the `user.js` (and `casual.js`) file: [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and [Optional Hardening](https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening). Use to your preference.
 
