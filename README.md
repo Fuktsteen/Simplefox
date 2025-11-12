@@ -14,9 +14,7 @@ Improves privacy and quality of life while maintaining a heavy emphasis on usabi
 3) For the profile you want to use, click **Open Folder** in the **Root Directory** section.
 4) Move the `user.js` file into the folder.
 5) Restart Firefox.
-6) Optionally for added privacy install the [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) content blocker.
-
-[Betterfox](https://github.com/yokoffing/Betterfox) has great lists of common changes to the `user.js` (and `casual.js`) file: [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and [Optional Hardening](https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening). Use to your preference.
+6) Optionally install the [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) ad and content blocker.
 
 ## Which one is for me, `user.js` or `casual.js`?
 While very similar, `casual.js` has some minor changes compared to `user.js` to ensure reliability.
@@ -26,6 +24,8 @@ While very similar, `casual.js` has some minor changes compared to `user.js` to 
 3) Switches from "Max Protection" to "Increased Protection" under DNS over HTTPS.
 
 `user.js` is very stable (personally never had any problems), but `casual.js` further ensures it.
+
+Whichever you choose, you can always tweak it to your liking. [Betterfox](https://github.com/yokoffing/Betterfox) has great lists of common changes: [Common Overrides](https://github.com/yokoffing/Betterfox/wiki/Common-Overrides) and [Optional Hardening](https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening).
 
 ## Heavily opinionated settings
 
@@ -43,3 +43,6 @@ Simplefox' `user.js` is a curated list of simple changes to improve the already 
 [Betterfox](https://github.com/yokoffing/Betterfox) and its parent project [Arkenfox](https://github.com/arkenfox/user.js) both use a `user.js` to improve the Firefox experience.
 
 Simplefox is a shrunk fork of Betterfox to keep things simpler, mainly for my personal use.
+
+## Will this hide me in the internet?
+No. If you want or need anonymity, use the [Tor Browser](https://www.torproject.org/).
