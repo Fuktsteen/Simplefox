@@ -26,7 +26,7 @@ user_pref("browser.privatebrowsing.resetPBM.enabled", true);
 
 /** SEARCH / URL BAR ***/
 user_pref("browser.urlbar.trimURLs", false);
-user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
+user_pref("browser.search.separatePrivateDefault.ui.enabled", false);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.urlbar.quicksuggest.enabled", false);
 user_pref("browser.formfill.enable", false);
