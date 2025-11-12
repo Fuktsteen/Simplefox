@@ -4,7 +4,7 @@ A simple list of [about:config](https://support.mozilla.org/en-US/kb/about-confi
 Improves privacy and quality of life while maintaining a heavy emphasis on usability, ie.:
 
 - disables telemetry, AI and speculative loading
-- enables Strict Tracking Protection and DNS over HTTPS
+- enables Strict Tracking Protection and DNS over HTTPS (with additional ad, tracker and malware blocking)
 - opts out of experiments and crash reports
 
 ## Instructions
