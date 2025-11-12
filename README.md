@@ -34,15 +34,15 @@ Whichever you choose, you can always tweak it to your liking. [Betterfox](https:
 
 Should you prefer some other service providers, the respective settings have been located at the top of both `user.js` and `casual.js` files.
 
-## What is `user.js`?
+## What is a `user.js`?
 `user.js` is a configuration file you can use to change Firefox' [about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox) settings in bulk.
 
 Simplefox' `user.js` is a curated list of simple changes to improve the already great Firefox experience.
 
-## How is Simplefox different from Betterfox or Arkenfox?
+## How is this different from Betterfox or Arkenfox?
 [Betterfox](https://github.com/yokoffing/Betterfox) and its parent project [Arkenfox](https://github.com/arkenfox/user.js) both use a `user.js` to improve the Firefox experience.
 
 Simplefox is a shrunk fork of Betterfox to keep things simpler, mainly for my personal use.
 
-## Will this hide me in the internet?
+## Will this hide me on the internet?
 No. If you want or need anonymity, use the [Tor Browser](https://www.torproject.org/).
