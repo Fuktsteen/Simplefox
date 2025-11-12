@@ -75,8 +75,8 @@ user_pref("app.normandy.enabled", false);
 user_pref("app.normandy.api_url", "");
 
 /** CRASH REPORTS ***/
-user_pref("breakpad.reportURL", "");
-user_pref("browser.tabs.crashReporting.sendReport", false);
+user_pref("browser.tabs.crashReporting.sendReport", true);
+/** Casual: Crash reporting enabled to stay consistent with more-stable-UX philosophy. ***/
 
 /** MOZILLA UI ***/
 user_pref("browser.privatebrowsing.vpnpromourl", "");

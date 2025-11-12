@@ -22,6 +22,7 @@ While very similar, `casual.js` has some minor changes compared to `user.js` to 
 1) Enables "Fix major site issues" under Enhanced Tracking Protection.
 2) Removes alternative geo service.
 3) Switches from "Max Protection" to "Increased Protection" under DNS over HTTPS.
+4) Enables crash reporting.
 
 `user.js` is very stable (personally never had any problems), but `casual.js` further ensures it.
 
@@ -29,10 +30,13 @@ Whichever you choose, you can always tweak it to your liking. [Betterfox](https:
 
 ## Heavily opinionated settings
 
-1) Geo service provider - [BeaconDB](https://beacondb.net/)
-2) DNS over HTTPS provider - [Mullvad](https://mullvad.net/en) (anti ad, tracker and malware [preset](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls))
+1) `user.js`: Geo service provider - [BeaconDB](https://beacondb.net/)
+2) **Both**: DNS over HTTPS provider - [Mullvad](https://mullvad.net/en) (anti ad, tracker and malware [preset](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls))
+3. `casual.js`: Crash reporting enabled.
 
 Should you prefer some other service providers, the respective settings have been located at the top of both `user.js` and `casual.js` files.
+
+Crash reporting is enabled in `casual.js` to stay consistent with the philosophy of a more stable user experience.
 
 ## What is a `user.js`?
 `user.js` is a configuration file you can use to change Firefox' [about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox) settings in bulk.
