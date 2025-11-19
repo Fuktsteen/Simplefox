@@ -3,7 +3,7 @@
 
 /** HEAVILY OPINIONATED SETTINGS ***/
 user_pref("geo.provider.network.url", "https://beacondb.net/v1/geolocate"); // BeaconDB geo service
-user_pref("network.trr.uri", "https://base.dns.mullvad.net/dns-query"); // Mullvad's DoH service that additionally blocks ads, trackers and malware
+user_pref("network.trr.uri", "https://dns.quad9.net/dns-query"); // Quad9's DoH service
 
 /** SPECULATIVE LOADING ***/
 user_pref("network.http.speculative-parallel-limit", 0);

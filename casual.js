@@ -3,7 +3,7 @@
 
 /** HEAVILY OPINIONATED SETTINGS ***/
 /** Casual: Removes alternative geo service for reliability. ***/
-user_pref("network.trr.uri", "https://base.dns.mullvad.net/dns-query"); // Mullvad's DoH service that additionally blocks ads, trackers and malware
+user_pref("network.trr.uri", "https://dns.quad9.net/dns-query"); // Quad9's DoH service
 
 /** SPECULATIVE LOADING ***/
 user_pref("network.http.speculative-parallel-limit", 0);

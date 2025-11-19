@@ -31,7 +31,7 @@ Whichever you choose, you can always tweak it to your liking. [Betterfox](https:
 ## Heavily opinionated settings
 
 1) `user.js`: Geo service provider - [BeaconDB](https://beacondb.net/)
-2) **Both**: DNS over HTTPS provider - [Mullvad](https://mullvad.net/en) (anti ad, tracker and malware [preset](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls))
+2) **Both**: DNS over HTTPS provider - [Quad9](https://quad9.net/)
 3) `casual.js`: Crash reporting enabled.
 
 Should you prefer some other service providers, the respective settings have been located at the top of both `user.js` and `casual.js` files.
